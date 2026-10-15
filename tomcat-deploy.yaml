@@ -17,6 +17,6 @@ spec:
        - name: passwd-for-docker-hub
      containers:
        - name: tomcat
-         image:  firdosimage:BUILD_NUMBER
+         image:  mdfirdos9932/firdosimage:BUILD_NUMBER
          ports:
           - containerPort: 8080
